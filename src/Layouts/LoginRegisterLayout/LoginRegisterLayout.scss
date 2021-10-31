@@ -1,0 +1,29 @@
+.loginRegisterLayout {
+    @include tablet-and-above {
+        height: 100vh;
+    } 
+    .logoField {
+        display: block;
+        height: 100px;
+        padding: 0;
+        @include small-mobile-and-above {
+            height: 200px;
+        }
+        @include tablet-and-above {
+            height: 100%;
+            float: left;
+            width: 540px;
+        }
+        background-color: $secondary-green;
+    }
+    .contentField {
+        background-color: $white;
+        @include tablet-and-above {
+            height: 100%;
+        }
+        .content {
+            margin: 0 auto;
+            color: $burgundy;
+        }
+    }
+}

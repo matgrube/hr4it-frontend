@@ -1,0 +1,111 @@
+@mixin flexbox($direction: row, $align: flex-start, $justify: flex-start, $wrap: nowrap, $content: stretch) {
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-direction: $direction;
+    align-items: $align;
+    justify-content: $justify;
+    flex-wrap: $wrap;
+    align-content: $content;
+}
+
+@mixin text-40($font-family: Mulish, $font-weight: 500) {
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: $font-weight;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+@mixin text-48($font-family: Mulish, $font-weight: 500) {
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: $font-weight;
+    font-size: 48px;
+    line-height: 72px;
+}
+
+@mixin text-30($font-family: Mulish, $font-weight: 500) {
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: $font-weight;
+    font-size: 30px;
+    line-height: 44px;
+  }
+  
+  @mixin text-20($font-family: Mulish, $font-weight: 300) {
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: $font-weight;
+    font-size: 20px;
+    line-height: 32px;
+  }
+  
+  @mixin text-16($font-family: Mulish, $font-weight: 500) {
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: $font-weight;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  @mixin text-14($font-family: Mulish, $font-weight: 500) {
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: $font-weight;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  
+  @mixin text-12($font-family: Mulish, $font-weight: 500) {
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: $font-weight;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  
+  @mixin text-10($font-family: Mulish, $font-weight: 400) {
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: $font-weight;
+    font-size: 10px;
+  }
+
+  @mixin desktop-and-above {
+      @media screen and (min-width: 1366px) {
+          @content;
+      }
+  }
+
+  @mixin small-desktop-and-above {
+      @media screen and (min-width: 1024px) {
+          @content;
+      }
+  }
+
+  @mixin tablet-and-above {
+      @media screen and (min-width: 992px) {
+          @content;
+      }
+  }
+
+  @mixin small-tablet-and-above {
+      @media screen and (min-width: 768px) {
+          @content;
+      }
+  }
+
+  @mixin mobile-and-above {
+      @media screen and (min-width: 576px) {
+          @content;
+      }
+  }
+
+  @mixin small-mobile-and-above {
+      @media screen and (min-width: 376px) {
+          @content;
+      }
+  }

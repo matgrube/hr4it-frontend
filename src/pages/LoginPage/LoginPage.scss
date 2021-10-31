@@ -1,0 +1,33 @@
+.loginPage {
+    @include flexbox($direction: column, $align: center, $justify: center);
+    padding: 50px 15px;
+    @include tablet-and-above {
+        height: 100%;
+        padding: 150px 15px;
+    };
+    position: relative;
+    .login {
+        @include flexbox($direction: column, $align: flex-start, $justify: center);
+        height: 100%;
+        width: 80%;
+        margin: 0 auto;
+        @include small-mobile-and-above {
+            max-width: 350px;
+        }
+        @include tablet-and-above {
+            max-width: 414px;
+            padding-top: 0px;
+        }
+        .signIntoAccount {
+            @include text-20($font-weight: 500);
+            margin-bottom: 32px;
+            @include small-mobile-and-above {
+                margin-bottom: 40px;
+            }
+            margin-top: 32px;
+            @include tablet-and-above {
+                margin-bottom: none;
+            }
+        }
+    };
+}
