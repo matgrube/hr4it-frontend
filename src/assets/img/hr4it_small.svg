@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="133.73131mm"
+   height="67.868317mm"
+   viewBox="0 0 133.73131 67.868317"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (eb90963e84, 2021-10-02)"
+   sodipodi:docname="hr4it_small.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.36703143"
+     inkscape:cx="265.64483"
+     inkscape:cy="-234.31236"
+     inkscape:window-width="1920"
+     inkscape:window-height="1010"
+     inkscape:window-x="0"
+     inkscape:window-y="34"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="326.94415"
+       y="653.38458"
+       width="61.441841"
+       height="242.0023"
+       id="rect90611" />
+    <rect
+       x="103.69567"
+       y="45.371597"
+       width="607.76367"
+       height="1052.0822"
+       id="rect85219" />
+    <rect
+       x="78.274132"
+       y="886.18652"
+       width="635.4245"
+       height="195.61606"
+       id="rect51643" />
+    <rect
+       x="28.902245"
+       y="38.803684"
+       width="735.59076"
+       height="1036.5814"
+       id="rect36307" />
+    <rect
+       x="188.86302"
+       y="118.1528"
+       width="424.30453"
+       height="893.02374"
+       id="rect15345" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-37.905725,-210.0443)">
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text15343"
+       style="font-style:normal;font-weight:normal;font-size:933.333px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect15345);fill:#000000;fill-opacity:1;stroke:none"><tspan
+         x="188.86328"
+         y="1836.9567"
+         id="tspan111379"><tspan
+           style="font-size:533.333px"
+           id="tspan111377">`</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text36305"
+       style="font-style:normal;font-weight:normal;font-size:1000px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect36307);fill:#000000;fill-opacity:1;stroke:none"><tspan
+         x="28.902344"
+         y="1960.1504"
+         id="tspan111381">4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="106.02758"
+       y="184.06691"
+       id="text37479"><tspan
+         sodipodi:role="line"
+         id="tspan37477"
+         style="stroke-width:0.264583"
+         x="106.02758"
+         y="184.06691" /></text>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text51641"
+       style="font-style:normal;font-weight:normal;font-size:158.667px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect51643);fill:#aa8800;fill-opacity:1;stroke:none"
+       x="252.72005"
+       y="0"><tspan
+         x="134.89853"
+         y="1044.8545"
+         id="tspan111385"><tspan
+           style="font-family:LeanConkyConfig;-inkscape-font-specification:LeanConkyConfig;text-align:center;text-anchor:middle"
+           id="tspan111383">HR    IT</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,2.1884041,177.71382)"
+       id="text85217"
+       style="font-style:normal;font-weight:normal;font-size:333.333px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect85219);fill:#aa8800;fill-opacity:1;stroke:none"
+       x="177.08342"
+       y="0"><tspan
+         x="314.8038"
+         y="378.7041"
+         id="tspan111389"><tspan
+           style="font-family:LeanConkyConfig;-inkscape-font-specification:LeanConkyConfig;text-align:center;text-anchor:middle"
+           id="tspan111387">4</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text90609"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect90611);fill:#000000;fill-opacity:1;stroke:none" />
+  </g>
+</svg>

@@ -1,29 +1,42 @@
 .loginRegisterLayout {
-    @include tablet-and-above {
-        height: 100vh;
-    } 
+    height: 100vh;
     .logoField {
         display: block;
         height: 100px;
         padding: 0;
         @include small-mobile-and-above {
-            height: 200px;
+            height: 100px;
         }
         @include tablet-and-above {
             height: 100%;
             float: left;
             width: 540px;
         }
-        background-color: $secondary-green;
+        background-color: $primary-green;
+        @include flexbox($direction: column, $align: center, $justify: center);
+        .logoBig {
+            width: 400px;
+            height: 450px;
+            display: none;
+            @include tablet-and-above {
+                display: block;
+            }
+        }
+        
+        .logoSmall {
+            height: 80px;
+            margin: 10px;
+            display: block;
+            @include tablet-and-above {
+                display: none; 
+            }
+        }
     }
     .contentField {
         background-color: $white;
+        height: calc(100% - 100px);
         @include tablet-and-above {
             height: 100%;
-        }
-        .content {
-            margin: 0 auto;
-            color: $burgundy;
         }
     }
 }

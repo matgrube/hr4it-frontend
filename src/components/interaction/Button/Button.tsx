@@ -20,15 +20,17 @@ const Button: React.FC<ButtonProps> = ({
     onClick
 }) => {
     return (
-        <AntButton
-            shape={shape}
-            type={type} 
-            htmlType={buttonType} 
-            className={className}
-            onClick={onClick}
-        >
-            {label}
-        </AntButton>
+        <div className="buttonWrapper">
+            <AntButton
+                shape={shape}
+                type={type} 
+                htmlType={buttonType} 
+                className={className}
+                onClick={onClick}
+             >
+                {label}
+            </AntButton>
+        </div>
     )
 }
 
