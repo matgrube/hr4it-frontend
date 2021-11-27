@@ -25,14 +25,12 @@ const LoginForm: React.FC<LoginFormProps> = ({
             onSubmit={onSubmit}>
            {({values, handleSubmit, handleChange}) => (
                 <form className="loginForm" onSubmit={handleSubmit}>
-                    <div className="loginInput">
                         <LoginInput 
                             name="login" 
                             labelText="Login" 
                             onChange={handleChange}
                             defaultValue={values.login}
                         />
-                    </div>
                     <PasswordInput name="password" labelText="Password" visibilityToggle />
                     <Button 
                         buttonType="submit"  

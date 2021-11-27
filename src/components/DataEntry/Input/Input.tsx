@@ -62,7 +62,7 @@ export const PasswordInput: React.FC<InputProps> =  ({
     visibilityToggle
 }) => {
     return (
-        <div className="InputWrapper">
+        <div className="inputWrapper">
             {!!labelText && (
                 <label htmlFor={name} className="label">
                     {labelText}
@@ -80,6 +80,7 @@ export const PasswordInput: React.FC<InputProps> =  ({
                 visibilityToggle={visibilityToggle}
                 prefix={(<KeyOutlined />)}
             />
+            <div className="validationContainer">{!!error && <span className="validationError">{error}</span>}</div>
         </div>
     )
 }

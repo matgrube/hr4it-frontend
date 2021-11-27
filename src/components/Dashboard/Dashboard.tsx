@@ -6,9 +6,9 @@ const Dashboard: React.FC = () => {
     return (
         <div>
             <h1>This is a dashboard</h1>
-            <Alert {...AlertMessages.EMPTY_INFO} />
+            <Alert {...AlertMessages.GENERIC_ERROR} />
         </div>
     )
 }
 
-export default Dashboard;
+export default Dashboard

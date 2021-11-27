@@ -1,0 +1,19 @@
+.buttonWrapper {
+    width: 100%; 
+    .ant-btn-primary {
+        background-color: $primary-green;
+        border-color: $primary-green;
+    }
+    .ant-btn-primary:focus {
+        background-color: $primary-green;
+        border-color: $primary-green;
+    }
+    .ant-btn-ghost {
+        background-color: $secondary-green;
+        border-color: $secondary-green;
+    }
+}
+.buttonWrapper .ant-btn:hover {
+    background-color: $mid-green;
+    border-color: $primary-green;
+}
