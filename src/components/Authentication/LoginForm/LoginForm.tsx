@@ -1,9 +1,11 @@
 import React from "react";
+import { useHistory } from "react-router-dom";
 import { Formik } from "formik";
 import { LoginInput, PasswordInput } from "../../DataEntry/Input/Input";
 import Button from "../../interaction/Button"
 import { LoginFormValidationSchema } from "../../../validationSchemas/validations";
 import { LoginFormRequest } from "../../../pages/LoginPage/LoginPage";
+import {publicPaths} from "../../../routes/paths";
 
 interface LoginFormProps {
     onSubmit: (values: LoginFormRequest) => void;
@@ -17,6 +19,10 @@ const initialValues: LoginFormRequest = {
 const LoginForm: React.FC<LoginFormProps> = ({
     onSubmit,
 }) => {
+    const history = useHistory()
+    const handleClick = () => {
+        history.push(publicPaths.dashboard);
+    };
     return (
         <Formik 
             initialValues={initialValues} 
@@ -33,10 +39,11 @@ const LoginForm: React.FC<LoginFormProps> = ({
                         />
                     <PasswordInput name="password" labelText="Password" visibilityToggle />
                     <Button 
-                        buttonType="submit"  
+                        buttonType="button"  
                         className="button"
                         label="Sign In" 
                         type="primary"
+                        onClick={handleClick}
                     >
                     </Button>
                 </form>

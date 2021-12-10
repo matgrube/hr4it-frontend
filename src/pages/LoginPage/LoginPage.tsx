@@ -11,16 +11,11 @@ export interface LoginFormRequest {
     password: string;
 }
 
-const LoginPage: React.FC<RouteProps> =  () => {
+export const LoginPage: React.FC<RouteProps> =  () => {
     const history = useHistory();
     const [alert, setAlert] = useState<boolean>(false);
     const handleSubmit = (values: LoginFormRequest) => {
-        try {
-            console.log(values);
             history.push(publicPaths.dashboard);
-        } catch (e) {
-            console.log(e);
-        }
     }
     
     return (
@@ -35,5 +30,3 @@ const LoginPage: React.FC<RouteProps> =  () => {
         </LoginRegisterLayout>
     )
 }
-
-export default LoginPage;

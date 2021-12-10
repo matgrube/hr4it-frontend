@@ -2,7 +2,7 @@ import React from "react";
 import {AlertMessages} from "../interaction/Alert/AlertMessages";
 import { Alert } from "../interaction/Alert/Alert";
 
-const Dashboard: React.FC = () => {
+export const Dashboard: React.FC = () => {
     return (
         <div>
             <h1>This is a dashboard</h1>
@@ -10,5 +10,3 @@ const Dashboard: React.FC = () => {
         </div>
     )
 }
-
-export default Dashboard
