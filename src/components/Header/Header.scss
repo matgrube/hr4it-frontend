@@ -1,0 +1,78 @@
+.ant-layout-header {
+    background-color: $primary-green !important;
+}
+.headerContainer {
+    .header {
+        display: flex;
+        padding: 0 26px;
+        justify-content: center;
+        .nav {
+            position: absolute;
+            left: 0;
+            height: 64px;
+            padding: 0 24px;
+            color: $gray-scale-0;
+            :hover {
+                cursor: pointer;
+            }
+            .arrow {
+                color: $gray-scale-0;
+                font-size: 18px;
+                position: relative;
+                top: 2px;
+            }
+        }
+        .logo {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            .logoSmall {
+                margin-top: 5px;
+                height: 50px;
+            }
+        }
+        .menu {
+            position: absolute;
+            right: 14px;
+            height: 64px;
+            justify-content: center;
+            &--desktop {
+                display: none;
+                @include mobile-and-above {
+                    display: flex;
+                    margin-right: 12px;
+                }
+            }
+            &--mobile {
+                display: flex;
+                margin-right: 12px;
+                @include mobile-and-above {
+                    display: none;
+                }
+            };
+            .item {
+                z-index: 2;
+                display: flex;
+                justify-content: center;
+                padding-top: 20px;
+                font-size: 22px;
+                color: $gray-scale-0;
+                width: 48px;
+                margin: 0 4px;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+            .avatar {
+                padding-top: 12px;
+                .ant-avatar {
+                    background-color: $white;
+                    svg {
+                        fill: black;
+                    }
+                }
+            }
+        }
+    }
+};
